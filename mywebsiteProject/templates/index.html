@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+{% load static %}
+{% url 'contact:contact' as contact_url %}
+
+
+{% block title %}Home{% endblock %}
+
+{% block head %}
+    <link href="{% static 'css/defult.css' %}" rel="stylesheet" />
+{% endblock %}
+
+{% block content %}
+
+    <section class="s1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h3>Welcome to my personal website showcasing my current projects. Please note this site is still under construction.</h3>
+            </div>
+
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+{#                    <ul class="dots-wrapper">#}
+{#                    </ul>#}
+
+                    <ul id="navigation">
+{#                        <button class="btn"><i class="fa fa-download"></i> Resume</button>#}
+                        <a target="_blank" href="{% static 'others/Ibrahim_Resume.pdf' %}"
+                           class="btn btn-color"><i class="fa fa-download"></i> Resume</a>
+                        <p> </p>
+                    </ul>
+                </div>
+
+                <div class="left-column">
+                    <img id="profile-pic" src="{% static 'img/IMG.jpg' %}">
+{#                    <h5 style="text-align: center;line-height:0;">Personalize your view</h5>#}
+{##}
+                    <div id="theme-options-wrapper">
+                        <a target="_blank" href="{{"https://www.linkedin.com/in/ibrahim-abrahim-sheikh-26bb8314b/"}}"
+                           class="btn btn-color"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                        <a target="_blank" href="{{"https://github.com/ibrahimsheikh89"}}"
+                           class="btn btn-color"><i class="fab fa-github fa-2x"></i></a>
+{#                        <div data-mode="light" id="light-mode" class="them-dot"></div>#}
+{#                        <div data-mode="blue" id="blue-mode" class="them-dot"></div>#}
+{#                        <div data-mode="green" id="green-mode" class="them-dot"></div>#}
+{#                        <div data-mode="purple" id="purple-mode" class="them-dot"></div>#}
+                    </div>
+{#                    <p id="settings-note">*Theme settings</p>#}
+                </div>
+
+                <div class="right-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <h3>What I Do</h3>
+                            <p>Detail-focused tech professional and academic with knowledge in data analysis and
+                                software/hardware support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="s2">
+        <div class="main-container">
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More about me</h4>
+
+                    <p> Coming soon...</p>
+
+
+                    <hr>
+                    <h4>Top skills</h4>
+
+                    <p>Skills: <a target="_blank"
+                                  href="{% static 'others/Ibrahim_Resume.pdf' %}">Download Resume</a></p>
+                    <div id="skills">
+                        <ul>
+                            <li>Python</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>MATLAB</li>
+                        </ul>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>PostgreSql</li>
+                            <li>Excel</li>
+                            <li>Tableau</li>
+                            <li>Power BI</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <img id="so_image" src="{% static 'img/unnamed.jpg' %}">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    </section>
+    <section class="s1">
+        <div class="main-container">
+            <h3 style="text-align: center">Some of my projects</h3>
+
+            <div class="post-wrapper">
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="{% static 'img/l.png' %}">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post title</h6>
+                            <p class="post-intro"> Coming soon</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="{% static 'img/l.png' %}">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post title</h6>
+                            <p class="post-intro"> Coming soon</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="{% static 'img/l.png' %}">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post title</h6>
+                            <p class="post-intro"> Coming soon</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+{% endblock %}

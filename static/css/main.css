@@ -1,0 +1,50 @@
+#main  {
+    padding-top: 74px;
+    padding-left: 10px;
+}
+@media (min-width: 992px) {
+    #main {
+        padding-top: 104px;
+        padding-left: 10px;
+    }
+}
+
+.hs-bg-primary{
+    background-color: #994a50;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .2s, color .2s;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #994a50;
+    border-color: #994a50;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active{
+    background: none;
+    color: white;
+    border-color: #994a50;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active:hover{
+    background: none;
+    color: #994a50;
+}
+
+.btn-color{
+    color: #212529;
+    padding-top: 20px;
+}
+
+#navigation {
+    font-size: 30px;
+}
+
+
+.s1 {
+    padding-top: 25px;
+    border: none;
+}

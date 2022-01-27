@@ -23,7 +23,7 @@ COPY Makefile ./Makefile
 COPY static ./static
 COPY mywebsiteProject ./mywebsiteProject
 
-EXPOSE 8000
+EXPOSE 8000 
 
 FROM production as development
 

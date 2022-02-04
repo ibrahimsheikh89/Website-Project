@@ -12,7 +12,7 @@
 .hs-bg-primary{
     background-color: #994a50;
 }
-
+ 
 #mainNav .navbar-nav li.nav-item a.nav-link {
     border-bottom: 2px solid transparent;
     transition: border-bottom .2s, color .2s;

@@ -25,4 +25,3 @@ urlpatterns = [
     path("accounts/", include("mywebsiteProject.apps.accounts.urls")),
     path("contact/", include("mywebsiteProject.apps.contact.urls")),
 ]
-

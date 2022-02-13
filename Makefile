@@ -1,7 +1,7 @@
 tag=latest
 organization=ibrahimsheikh
 image=ibrahim_website_django
-
+ 
 build:
 	docker build --force-rm $(options) -t ibrahim_website_django:latest .
 
